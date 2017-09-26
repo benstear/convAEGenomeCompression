@@ -1,5 +1,6 @@
 """create a convolutional autoencoder w/ Tensorflow for SNP compression, and store Indels in a separate file for compression
 this is a flat model, meaning SNPs are not converted to square images
+this is to test comrpession if SNPs are not conveted to square image
 """
 
 import tensorflow as tf

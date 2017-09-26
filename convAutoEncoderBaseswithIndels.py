@@ -1,5 +1,6 @@
 """create a convolutional autoencoder w/ Tensorflow for SNP compression, and store Indels in a separate file for compression
 SNPs are converted to square images
+to run, untar JWIndel.tar.gz to /home/tester/data/JWIndel. This is the parsed SNP/Indels from original JW VCF file
 """
 
 import tensorflow as tf

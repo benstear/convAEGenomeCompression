@@ -1,5 +1,6 @@
 """create a convolutional autoencoder w/ Tensorflow to compress distances
 distances are input as one dimensional array, and not converted to square images
+this is for testing performance if distances (gaps) are not converted to square image
 """
 
 import tensorflow as tf

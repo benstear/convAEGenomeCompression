@@ -1,5 +1,6 @@
 """Tcreate a convolutional autoencoder w/ Tensorflow to compress distances
 distances are converted to square images as input
+to run, untar allgaps.tar.gz to /home/tester/data/JW/. this is the parsed distances(gaps) from original JW VCF file
 """
 import tensorflow as tf
 import numpy as np
@@ -147,7 +148,7 @@ def getGapsData(filename, segmentLength=14400):
     srcF = open(directoryName+srcFile, 'w')
     totalGaps = 0
     for i in range(1, 23):#23):
-        filename = "/home/testerdata/JW/"+"gapschr"+str(i)
+        filename = "/home/tester/data/JW/"+"gapschr"+str(i)
         #filename = "gaps"
         f = open(filename)
         rawDataOneGenoAllSz = [float(x.strip()) for x in f.readlines()]
