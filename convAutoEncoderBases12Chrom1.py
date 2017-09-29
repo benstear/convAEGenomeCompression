@@ -11,6 +11,7 @@
         'huC3C30D',
         'huCF305F',
         'huhu7ECB9C
+to teset, untar twelveGenom.tar.gz, and change "/home/tester/data/" to point to the untared data
 """
 
 import tensorflow as tf
